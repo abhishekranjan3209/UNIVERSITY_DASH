@@ -2,6 +2,10 @@ from django.db import models
 
 
 from django.db.models import JSONField
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
+
 
 
 class University(models.Model):
@@ -140,12 +144,6 @@ class StudentEnrollemnt(models.Model):
         return self.student.email
     
 #done till now
-
-from django.db import models
-from django.contrib.auth import get_user_model
-
-User = get_user_model()
-
 
 #need to ask if required to aDD THEN ADD ??????????????
 
