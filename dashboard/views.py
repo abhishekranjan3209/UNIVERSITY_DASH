@@ -1,14 +1,26 @@
-from django.shortcuts import render
-
-# Create your views here.
-# students/views.py
 import csv
+import json
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status, permissions
 from .models import Student, College
 from rest_framework.permissions import AllowAny
 
+def get_user_data_for_rest_api(request_data):
+    user_data = request_data.get('user_data')
+    user_data = json.loads(user_data)
+    return user_data
+
+class DashboardView(APIView):
+    def get(self, request, *args, **kwargs):
+        request_data = request.GET
+        user_data = get_user_data_for_rest_api(request_data)
+        user_permissions = user_data.get('user_permission')
+        print("=== Incoming Request ===")
+        print("User Data:", user_data)
+        print("User Permissions:", user_permissions)
+        print("========================")
+        return Response({"message": "Welcome to the University Dashboard!"}, status=status.HTTP_200_OK)
 
 class BulkUploadStudentsView(APIView):
     permission_classes = [AllowAny]
