@@ -1,0 +1,3 @@
+name,email,enrollment_no,batch,department,courses
+John Doe,john.doe@example.com,ENR001,2025,Computer Science,"['Python','Django','Databases']"
+Jane Smith,jane.smith@example.com,ENR002,2025,Electronics,"['Circuits','Signals','Microcontrollers']"

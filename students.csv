@@ -1,0 +1,6 @@
+name,email,enrollment_no,batch,department,courses
+John Doe,john.doe@example.com,ENR001,2025,Computer Science,"['Python','Django','Databases']"
+Jane Smith,jane.smith@example.com,ENR002,2025,Electronics,"['Circuits','Signals','Microcontrollers']"
+Amit Kumar,amit.kumar@example.com,ENR003,2024,Mechanical Engineering,"['Thermodynamics','Fluid Mechanics']"
+Sara Lee,sara.lee@example.com,ENR004,2023,Civil Engineering,"['Structural Analysis','Surveying']"
+David Johnson,david.johnson@example.com,ENR005,2025,Information Technology,"['Java','Spring Boot','APIs']"
