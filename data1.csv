@@ -1,0 +1,22 @@
+name,email,enrollement,university,college,batch,department,courses
+Aarav Sharma,roy2025001@royal.com,ROY2025001,Royal University,Royal Private College,2025,Commerce,['ML']
+Diya Mehta,roy2025002@royal.com,ROY2025002,Royal University,Royal Private College,2026,Mechanical,"['Data Science', 'ML']"
+Rohan Patel,exc2025003@excel.com,EXC2025003,Excel University,Excel Tech Academy,2026,Mechanical,['Data Science']
+Isha Singh,exc2025004@excel.com,EXC2025004,Excel University,Excel Tech Academy,2024,Economics,"['AI', 'Data Science']"
+Arjun Reddy,roy2025005@royal.com,ROY2025005,Royal University,Royal Private College,2026,CS,['Cybersecurity']
+Ananya Gupta,bri2025006@bright.com,BRI2025006,Bright University,Bright Future Institute,2026,Mechanical,"['Data Science', 'AI', 'Cybersecurity', 'ML']"
+Vikram Kumar,roy2025007@royal.com,ROY2025007,Royal University,Royal Private College,2026,Economics,"['AI', 'Data Science', 'ML']"
+Saanvi Joshi,ana2025008@anand.com,ANA2025008,Anand University,Anand Global College,2024,Economics,"['AI', 'Cybersecurity', 'Data Science']"
+Kabir Verma,exc2025009@excel.com,EXC2025009,Excel University,Excel Tech Academy,2024,Economics,['Cybersecurity']
+Myra Iyer,ana2025010@anand.com,ANA2025010,Anand University,Anand Global College,2026,CS,"['Cybersecurity', 'AI', 'Data Science']"
+Vivaan Malhotra,bri2025011@bright.com,BRI2025011,Bright University,Bright Future Institute,2025,CS,"['ML', 'Cybersecurity', 'AI']"
+Priya Rao,roy2025012@royal.com,ROY2025012,Royal University,Royal Private College,2024,CS,"['Data Science', 'Cybersecurity', 'ML']"
+Zoya Khan,ana2025013@anand.com,ANA2025013,Anand University,Anand Global College,2025,Mechanical,"['Cybersecurity', 'Data Science']"
+Aryan Desai,roy2025014@royal.com,ROY2025014,Royal University,Royal Private College,2026,Economics,"['AI', 'ML', 'Data Science', 'Cybersecurity']"
+Kiara Nair,roy2025015@royal.com,ROY2025015,Royal University,Royal Private College,2024,Physics,"['Cybersecurity', 'Data Science', 'AI']"
+Advik Pillai,roy2025016@royal.com,ROY2025016,Royal University,Royal Private College,2026,Commerce,"['Data Science', 'ML', 'AI', 'Cybersecurity']"
+Neha Reddy,roy2025017@royal.com,ROY2025017,Royal University,Royal Private College,2025,Economics,"['AI', 'Data Science', 'ML']"
+Krish Sharma,roy2025018@royal.com,ROY2025018,Royal University,Royal Private College,2024,Mechanical,"['Cybersecurity', 'AI']"
+Rhea Kapoor,ana2025019@anand.com,ANA2025019,Anand University,Anand Global College,2026,Economics,"['ML', 'AI', 'Data Science']"
+Sai Prasad,roy2025020@royal.com,ROY2025020,Royal University,Royal Private College,2026,Physics,"['Cybersecurity', 'ML', 'AI', 'Data Science']"
+Anika Menon,ana2025021@anand.com,ANA2025021,Anand University,Anand Global College,2025,Economics,"['Data Science', 'AI']"
