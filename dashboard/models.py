@@ -40,7 +40,7 @@ class College(models.Model):
     Methods:
         __str__: Returns the string representation of the college, which is its name.
     """
-    university=models.ForeignKey(on_delete=models.CASCADE, related_name="colleges")
+    university=models.ForeignKey(University, on_delete=models.CASCADE, related_name="colleges")
     name= models.CharField(max_length=200)
     metadata = models.JSONField(default=dict, blank=True)
 
@@ -79,7 +79,7 @@ class Student(models.Model):
     email= models.EmailField(unique=True, db_index=True)
     enrollement=models.IntegerField() # given enrollment no 
 
-    college= models.ForeignKey(on_delete=models.CASCADE, related_name="students")
+    college= models.ForeignKey(College, on_delete=models.CASCADE, related_name="students")
     batch= models.IntegerField() #2025
     department= models.CharField(max_length=200) #computer science
     courses = JSONField(default=list, blank=True)
@@ -87,14 +87,19 @@ class Student(models.Model):
     updated_at = models.DateTimeField(auto_now=True, editable=False)
 
     def __str__(self):
+
         return self.email
     
 class Course(models.Model):
-    lms_course_id = models.CharField(max_length=100, db_index=True)
+    course_id = models.CharField(max_length=100, db_index=True)
     name = models.CharField(max_length=200)
     metadata = models.JSONField(default=dict, blank=True)
-    def _str_(self):
+    # In models.py > class Course
+    def __str__(self):
         return self.name
+      
+      
+      
 
 
 class StudentEnrollemnt(models.Model):
@@ -128,7 +133,7 @@ class StudentEnrollemnt(models.Model):
     Methods:
         __str__: Returns the string representation of the enrollment, which is the student's name.
     """
-    student=models.ForeignKey(on_delete=models.CASCADE, related_name="enrollments")
+    student=models.ForeignKey(Student, on_delete=models.CASCADE, related_name="enrollments")
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='enrollments')
 
     created_at=models.DateTimeField(auto_now_add=True, editable=False)

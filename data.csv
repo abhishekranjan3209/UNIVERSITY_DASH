@@ -1,0 +1,22 @@
+name,email,enrollement,university,college,batch,department,courses
+Aarav Sharma,aarav.sharma@example.com,2022001,Delhi University,Ramjas College,2025,Computer Science,"['Course1','Course2']"
+Diya Mehta,diya.mehta@example.com,2022002,Delhi University,Ramjas College,2025,Computer Science,['Course1']
+Rohan Patel,rohan.patel@example.com,2022003,Mumbai University,St. Xavier's College,2024,Commerce,['Course2']
+Isha Singh,isha.singh@example.com,2022004,Mumbai University,St. Xavier's College,2024,Commerce,"['Course1','Course3']"
+Arjun Reddy,arjun.reddy@example.com,2022005,Anna University,"College of Engineering, Guindy",2025,Mechanical Engineering,"['Course2','Course3']"
+Ananya Gupta,ananya.gupta@example.com,2022006,Delhi University,Hindu College,2025,Economics,['Course1']
+Vikram Kumar,vikram.kumar@example.com,2022007,Delhi University,Hindu College,2025,Economics,['Course2']
+Saanvi Joshi,saanvi.joshi@example.com,2022008,Mumbai University,St. Xavier's College,2026,Arts,['Course1']
+Kabir Verma,kabir.verma@example.com,2022009,Anna University,"College of Engineering, Guindy",2025,Computer Science,['Course3']
+Myra Iyer,myra.iyer@example.com,2022010,Anna University,"College of Engineering, Guindy",2025,Computer Science,"['Course1','Course2']"
+Vivaan Malhotra,vivaan.malhotra@example.com,2022011,Delhi University,Ramjas College,2024,Physics,['Course2']
+Priya Rao,priya.rao@example.com,2022012,Delhi University,Ramjas College,2024,Physics,['Course1']
+Zoya Khan,zoya.khan@example.com,2022013,Mumbai University,Mithibai College,2026,Biotechnology,['Course3']
+Aryan Desai,aryan.desai@example.com,2022014,Mumbai University,Mithibai College,2026,Biotechnology,"['Course1','Course3']"
+Kiara Nair,kiara.nair@example.com,2022015,Anna University,Madras Institute of Technology,2025,Aerospace Engineering,['Course2']
+Advik Pillai,advik.pillai@example.com,2022016,Anna University,Madras Institute of Technology,2025,Aerospace Engineering,"['Course1','Course2']"
+Neha Reddy,neha.reddy@example.com,2022017,Delhi University,Hindu College,2024,Chemistry,['Course3']
+Krish Sharma,krish.sharma@example.com,2022018,Delhi University,Hindu College,2024,Chemistry,"['Course1','Course2']"
+Rhea Kapoor,rhea.kapoor@example.com,2022019,Mumbai University,St. Xavier's College,2025,Management Studies,"['Course2','Course3']"
+Sai Prasad,sai.prasad@example.com,2022020,Anna University,"College of Engineering, Guindy",2026,Civil Engineering,['Course1']
+Anika Menon,anika.menon@example.com,2022021,Anna University,"College of Engineering, Guindy",2026,Civil Engineering,"['Course2','Course3']"
